@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/darkBlue"
+    tools:context=".activities.activities.activities.ConfirmRegistrationActivity">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:title="AlloDoctor"
+        android:background="@color/dark"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical|center_horizontal"
+        android:padding="32dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm Registration"
+            android:textColor="@color/white"
+            android:textSize="28dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:text="Please set the confirmation code sent to your phone"
+            android:textColor="@color/gray"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/field_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/green"
+                android:ems="2"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:maxLength="1" />
+
+            <EditText
+                android:id="@+id/field_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/green"
+                android:ems="2"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:maxLength="1"/>
+
+            <EditText
+                android:id="@+id/field_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/green"
+                android:ems="2"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:maxLength="1"/>
+
+            <EditText
+                android:id="@+id/field_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/green"
+                android:ems="2"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:maxLength="1"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_confirm_signup"
+            style="@style/ButtonCnx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/cnx_button"
+            android:text="Confirm" />
+    </LinearLayout>
+
+</LinearLayout>

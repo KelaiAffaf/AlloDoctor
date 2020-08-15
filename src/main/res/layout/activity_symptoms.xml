@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/darkBlue"
+    tools:context="com.example.e_sant.activities.activities.activities.SymptomsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/symptom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark"
+        android:minHeight="?attr/actionBarSize"
+        android:elevation="8dp"
+        app:navigationIcon="@mipmap/ic_back_arrow"/>
+
+    <FrameLayout
+        android:id="@+id/demande_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
